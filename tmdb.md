@@ -95,8 +95,7 @@ In this case after having your api key based request, you can go on [postman](ht
 
 ```
 
-
-Before proceeding further, it is highly recommendable using postman to test the endpoints.
+> Before proceeding further, it is highly recommendable using postman to test the endpoints.
 
 ## Authenticating Requests
 
