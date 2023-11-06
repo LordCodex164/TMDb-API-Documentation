@@ -14,9 +14,10 @@ Please be well informed that the registration process is not well optimized on m
 
 Once you have been given an API key, follow this use case for an API Key based request
 
+```
 curl --request GET \
      --url 'https://api.themoviedb.org/3/movie/11?api_key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
-
+```
 
 In this case after having your api key based request, you can go on [postman](https://www.postman.com) to test it and inspect how your data should look like: 
 
