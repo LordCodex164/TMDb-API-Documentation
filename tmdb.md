@@ -8,7 +8,7 @@ The Movie Database (TMDb) API is the api where you can find definitive lists of 
 
 ### Get started with the basics of the TMDB API.
 
-Before using the API, ensure you have your api key to test the (TMDb) API. If you don’t have one yet, you can create it [here] https://www.themoviedb.org/settings/api from your account setting page.
+Before using the API, ensure you have your api key to test the (TMDb) API. If you don’t have one yet, you can create it [here](https://www.themoviedb.org/settings/api) from your account setting page.
 
 Please be well informed that the registration process is not well optimized on mobile devices and only be done on a Laptop or Desktop.
 
@@ -18,7 +18,7 @@ curl --request GET \
      --url 'https://api.themoviedb.org/3/movie/11?api_key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 
-In this case after having your api key based request, you can go on [postman] https://www.postman.com to test it and inspect how your data should look like: 
+In this case after having your api key based request, you can go on [postman](https://www.postman.com) to test it and inspect how your data should look like: 
 
 {
 "adult": false,
@@ -112,24 +112,23 @@ In the previous section, you looked at application level authentication and how 
 
 ### Getting Account Details 
 
-**API KEY: adf1f827ef15aaa6f5ed21994fef76dc
+** API KEY: adf1f827ef15aaa6f5ed21994fef76dc
 
-**HTTP METHOD: GET Request. 
+** HTTP METHOD: GET Request. 
 
-**EndPoint Url: https://api.themoviedb.org/3/account/{account_id}
+** EndPoint Url: https://api.themoviedb.org/3/account/{account_id}
 
-**Feature: With a request to this endpoint, we get our (TMDB) account details.
+** Feature: With a request to this endpoint, we get our (TMDB) account details.
 
-The account id is the id for your (TMDB) account. In this case the id for my account is 20656973
+The account id is the id for your (TMDB) account. In this case the id for the account is 20656973
 
-**Request Headers: Inside the Headers, make sure you pass in your access token which helps authenticate the request which should look like the following:  👇
+** Request Headers: Inside the Headers, make sure you pass in your access token which helps authenticate the request which should look like the following:  👇
 
 eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN1YiI6IjY1NDNjNGU5NzcxOWQ3MDExYzkyOTJhMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.SdGVUI7GLQPfIYcJmLiFWxmgjVccJQiL8DWQ198yhCs'
 
-Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
+** Response Status Code: [200](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded)
 
-**Response JSON format:
-
+** Response JSON format:
 
 Here is how the data should look like in JSON format:
 
@@ -153,21 +152,21 @@ Here is how the data should look like in JSON format:
 
 ### Movie List Endpoint
 
-**API KEY: adf1f827ef15aaa6f5ed21994fef76dc
+** API KEY: adf1f827ef15aaa6f5ed21994fef76dc
 
-**HTTP METHOD: GET
+** HTTP METHOD: GET
 
-**Endpoint URL: https://api.themoviedb.org/3/movie/changes
+** Endpoint URL: https://api.themoviedb.org/3/movie/changes
 
-**Request Headers: In the request headers, pass in your access token that helps in authenticating your request 👇
+** Request Headers: In the request headers, pass in your access token that helps in authenticating your request 👇
 
 eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN1YiI6IjY1NDNjNGU5NzcxOWQ3MDExYzkyOTJhMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.SdGVUI7GLQPfIYcJmLiFWxmgjVccJQiL8DWQ198yhCs
 
-**Feature: Get a list of all of the movie ids that have been changed in the past 24 hours.
+** Feature: Get a list of all of the movie ids that have been changed in the past 24 hours.
 
-Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
+** Response Status Code: [200](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded).
 
-**Response JSON format:
+** Response JSON format:
 
 Here is how the data should look like in JSON format:
 
@@ -194,23 +193,23 @@ Here is how the data should look like in JSON format:
 
 ### Languages
 
-**API KEY: adf1f827ef15aaa6f5ed21994fef76dc
+** API KEY: adf1f827ef15aaa6f5ed21994fef76dc
 
-**HTTP Method: GET
+** HTTP Method: GET
 
-**Endpoint URL: https://api.themoviedb.org/3/configuration/languages
+** Endpoint URL: https://api.themoviedb.org/3/configuration/languages
 
-**Feature: Get the list of languages (ISO 639-1 tags) used throughout TMDB.
+** Feature: Get the list of languages (ISO 639-1 tags) used throughout TMDB.
 
-**Request Headers: In the request headers, pass in your access token that helps in authenticating your request 👇
+** Request Headers: In the request headers, pass in your access token that helps in authenticating your request 👇
 
 eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN1YiI6IjY1NDNjNGU5NzcxOWQ3MDExYzkyOTJhMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.SdGVUI7GLQPfIYcJmLiFWxmgjVccJQiL8DWQ198yhCs
 
 
-Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
+** Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
 
 
-Response JSON format:
+** Response JSON format:
 
 [
     {
@@ -243,17 +242,17 @@ Response JSON format:
 
 ### Jobs
 
-**API KEY: adf1f827ef15aaa6f5ed21994fef76dc
+** API KEY: adf1f827ef15aaa6f5ed21994fef76dc
 
-**HTTP Method: GET
+** HTTP Method: GET
 
-**Endpoint URL: https://api.themoviedb.org/3/configuration/jobs
+** Endpoint URL: https://api.themoviedb.org/3/configuration/jobs
 
-**Feature: Get the list of the jobs and departments we use on TMDB.
+** Feature: Get the list of the jobs and departments we use on TMDB.
 
-**Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
+** Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
 
-**Response JSON format: 
+** Response JSON format: 
 
 The 
 
@@ -506,15 +505,15 @@ The
 
 ## Now Playing
 
-**HTTP METHOD: GET
+** HTTP METHOD: GET
 
-**Endpoint Url: https://api.themoviedb.org/3/movie/now_playing
+** Endpoint Url: https://api.themoviedb.org/3/movie/now_playing
 
-**Feature: Get a list of movies that are currently in theatres.
+** Feature: Get a list of movies that are currently in theatres.
 
-**Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
+** Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
 
-**Response JSON format: 
+** Response JSON format: 
 
 {
     "dates": {
@@ -656,11 +655,11 @@ In the previous section, you covered the term rate limiting and how it is used i
 
 In this section, I will suggest two(2) methods that you can use to test the TMDb API effectively.
 
-**Manual Testing: With this method, APIs are tested manually by sending HTTP requests using tools like Postman. You can primarily interact with the postman user interface 
+** Manual Testing: With this method, APIs are tested manually by sending HTTP requests using tools like Postman. You can primarily interact with the postman user interface 
 as a manual tool to test APIs and inspect responses.
 
 
-**Automated Testing: This method involves using specialized software tools to automate a human driven manual process. An automating tool is required in this method in writing test cases. 
+** Automated Testing: This method involves using specialized software tools to automate a human driven manual process. An automating tool is required in this method in writing test cases. 
 Examples of automated testing tools include Newman which is a command line collection runner for postman. Newman allows you to run postman collection directly from the command line.
 
 
