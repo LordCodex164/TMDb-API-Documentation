@@ -20,6 +20,7 @@ curl --request GET \
 
 In this case after having your api key based request, you can go on [postman](https://www.postman.com) to test it and inspect how your data should look like: 
 
+```js
 {
 "adult": false,
 "backdrop_path": "/4qCqAdHcNKeAHcK8tJ8wNJZa9cx.jpg",
@@ -92,7 +93,10 @@ In this case after having your api key based request, you can go on [postman](ht
 "vote_count": 19261
 }
 
-Before proceeding further, you will be using postman to test the endpoints.
+```
+
+
+Before proceeding further, it is highly recommendable using postman to test the endpoints.
 
 ## Authenticating Requests
 
@@ -132,6 +136,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN
 
 Here is how the data should look like in JSON format:
 
+```js
 {
 "avatar": {
 "gravatar": {
@@ -148,6 +153,8 @@ Here is how the data should look like in JSON format:
 "include_adult": false,
 "username": "LordCodex"
 }
+```
+
 
 
 ### Movie List Endpoint
@@ -170,6 +177,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN
 
 Here is how the data should look like in JSON format:
 
+```js
 {
     "results": [
         {
@@ -191,6 +199,7 @@ Here is how the data should look like in JSON format:
     ]
 }
 
+```
 ### Languages
 
 ** API KEY: adf1f827ef15aaa6f5ed21994fef76dc
@@ -211,6 +220,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN
 
 ** Response JSON format:
 
+```js
 [
     {
         "iso_639_1": "xx",
@@ -238,6 +248,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN
         "name": ""
     },
 ]
+```
 
 
 ### Jobs
@@ -254,8 +265,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN
 
 ** Response JSON format: 
 
-The 
-
+```js
 [
     {
         "department": "Directing",
@@ -503,6 +513,10 @@ The
    
 ]
 
+
+
+```
+
 ## Now Playing
 
 ** HTTP METHOD: GET
@@ -515,6 +529,7 @@ The
 
 ** Response JSON format: 
 
+``` js
 {
     "dates": {
         "maximum": "2023-11-08",
@@ -629,6 +644,8 @@ The
     "total_pages": 103,
     "total_results": 2059
 }
+
+```
 
 ## Rate Limiting
 
