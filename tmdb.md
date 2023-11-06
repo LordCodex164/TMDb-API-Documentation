@@ -654,7 +654,7 @@ the original rate limiting (40 seconds per second) was disabled. However, upper 
 
 ## Usage Guidelines
 
-In the previous section, you covered the term rate limiting and how it is used in an api. Now, let's delve into best practices for using the TMDb API effectively and responsibly.
+In the previous section, you covered the term rate limiting and why it is used in an api. Now, let's delve into best practices for using the TMDb API effectively and responsibly.
 
 1. Ensure to set up Postman for API testing. If you still don’t know how, click [here](https://www.youtube.com/watch?v=h0CZ5V5kzEo).
 
