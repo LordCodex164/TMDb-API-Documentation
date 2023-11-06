@@ -8,7 +8,7 @@ The Movie Database (TMDb) API is the api where you can find definitive lists of 
 
 ### Get started with the basics of the TMDB API.
 
-Before using the API, ensure you have your api key to test the (TMDb) API. If you don’t have one yet, you can create it [here]https://www.themoviedb.org/settings/api from your account setting page.
+Before using the API, ensure you have your api key to test the (TMDb) API. If you don’t have one yet, you can create it [here] https://www.themoviedb.org/settings/api from your account setting page.
 
 Please be well informed that the registration process is not well optimized on mobile devices and only be done on a Laptop or Desktop.
 
@@ -18,7 +18,7 @@ curl --request GET \
      --url 'https://api.themoviedb.org/3/movie/11?api_key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 
-In this case after having your api key based request, you can go on [postman]https://www.postman.com to test it and inspect how your data should look like: 
+In this case after having your api key based request, you can go on [postman] https://www.postman.com to test it and inspect how your data should look like: 
 
 {
 "adult": false,
