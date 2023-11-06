@@ -102,7 +102,7 @@ In this case after having your api key based request, you can go on [postman](ht
 
 ### Application Level Authentication
 
-There is a term known as the Application level authentication which is basically used to authenticate a user when sending requests. When sending requests to an api endpoint, there is a need to authenticate those requests and it is only possible with a token. In this case, we will be using our access token as a Bearer token to authenticate our requests. To get the access token, head into your account page, under the API settings section, you will see a new token listed called API Read Access Token. This token is expected to be sent along as an Authorization header. A simple cURL example using this method looks like the following
+There is a term which is basically used to authenticate a user when sending requests. When sending requests to an api endpoint, there is a need to authenticate those requests and it is only possible with a token. In this case, we will be using our access token as a Bearer token to authenticate our requests. To get the access token, head into your account page, under the API settings section, you will see a new token listed called API Read Access Token. This token is expected to be sent along as an Authorization header. A simple cURL example using this method looks like the following
 
 curl --request GET \
      --url 'https://api.themoviedb.org/3/movie/11' \
