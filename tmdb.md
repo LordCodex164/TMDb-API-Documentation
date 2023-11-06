@@ -206,7 +206,7 @@ Here is how the data should look like in JSON format:
 eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN1YiI6IjY1NDNjNGU5NzcxOWQ3MDExYzkyOTJhMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.SdGVUI7GLQPfIYcJmLiFWxmgjVccJQiL8DWQ198yhCs
 
 
-** Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
+** Response Status Code: [200](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded).
 
 
 ** Response JSON format:
@@ -250,7 +250,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhZGYxZjgyN2VmMTVhYWE2ZjVlZDIxOTk0ZmVmNzZkYyIsInN
 
 ** Feature: Get the list of the jobs and departments we use on TMDB.
 
-** Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
+** Response Status Code: [200](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded).
 
 ** Response JSON format: 
 
@@ -511,7 +511,7 @@ The
 
 ** Feature: Get a list of movies that are currently in theatres.
 
-** Response Status Code: [200]https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded.
+** Response Status Code: [200](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200#:~:text=The%20HTTP%20200%20OK%20success,that%20the%20request%20has%20succeeded).
 
 ** Response JSON format: 
 
@@ -632,18 +632,18 @@ The
 
 ## Rate Limiting
 
-It is a technique or method that restricts the amount of requests made to a server or service so as to reduce traffic flow. According to [TMDb]https://developer.themoviedb.org/docs/rate-limiting as of December 16th, 2019, 
+It is a technique or method that restricts the amount of requests made to a server or service so as to reduce traffic flow. According to [TMDb](https://developer.themoviedb.org/docs/rate-limiting) as of December 16th, 2019, 
 the original rate limiting (40 seconds per second) was disabled. However, upper limits are still put in place to ensure that excessive bulk scraping is mitigated and reduced.
 
 ## Usage Guidelines
 
 In the previous section, you covered the term rate limiting and how it is used in an api. Now, let's delve into best practices for using the TMDb API effectively and responsibly.
 
-1. Ensure to set up Postman for API testing. If you still don’t know how, click [here]https://www.youtube.com/watch?v=h0CZ5V5kzEo.
+1. Ensure to set up Postman for API testing. If you still don’t know how, click [here](https://www.youtube.com/watch?v=h0CZ5V5kzEo).
 
-2. Read and review the [(TMDB) Official documentation]https://developer.themoviedb.org/docs/getting-started yourself to understand how the API works.
+2. Read and review the [(TMDB) Official documentation](https://developer.themoviedb.org/docs/getting-started) yourself to understand how the API works.
 
-3. API key: Sign up for a TMDb API key by visiting [TMDb API]https://www.themoviedb.org/documentation/api.
+3. API key: Sign up for a TMDb API key by visiting [TMDb API](https://www.themoviedb.org/documentation/api).
 
 4. Access Token: Head into your account page, under the API settings section, you will see a new token listed called API Read Access Token which you will pass as your authorization header.
 
